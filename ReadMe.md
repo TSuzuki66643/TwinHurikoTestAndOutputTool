@@ -38,7 +38,11 @@ w1 =   0.0　#わからん
 ### 振り子２の初期条件 #######################################
 th2 = 191.0
 w2 =   0.0
+
+time_template = 'time = %.2fs'#時間タイマーの表示桁数
+
 #最終行
 ani.save('filename.gif',writer='pillow',fps=30) #filenameとfpsはお好みで
 ```
+
 
